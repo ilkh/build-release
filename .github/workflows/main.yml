@@ -6,7 +6,8 @@
 
 name: x-wrt-master=ramips-mt7620
 
-on: 
+on:
+  workflow_dispatch:
   release:
     types: [published]
   push:
